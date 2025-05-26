@@ -8,9 +8,12 @@ const AppContext = createContext<AppProviderInterface>({
   isLoading: false,
   error: null,
   selectedStation: null,
-  setSelectedStation: (station: StationType | null) => {},
-  setIsLoading: (loading: boolean) => {},
-  setError: (error: string | null) => {},
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  setSelectedStation: (_station: StationType | null) => {},
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  setIsLoading: (_loading: boolean) => {},
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  setError: (_error: string | null) => {},
 });
 
 export function useApp() {
