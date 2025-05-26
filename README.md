@@ -100,7 +100,18 @@ src/
   └── utils/
 ```
 
-<pre> ## Project Structure Overview | **Component Folder** | **Description** | |-----------------------------|-----------------------------------------------------------------------------------------------| | `components/StationSelector`| UI for selecting air quality stations in London (NO₂ & O₃ supported only). | | `components/CurrentReading` | Displays latest NO₂ and O₃ measurements with timestamps, units, and visual indicators. | | `components/HistoricalData` | Renders interactive charts (7/30 days) showing historical trends for NO₂ and O₃. | | `api/` | Contains API utility functions to fetch station list, current readings, and historical data. | | `types/` | TypeScript types used throughout the app for consistency and type safety. | | `utils/` | Utility functions for formatting data, timestamps, and visual indicator logic. | </pre>
+
+## Project Structure Overview
+
+| **Component Folder**      | **Description**                                                                                                |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| `components/StationSelector` | UI for selecting air quality stations in London (NO₂ & O₃ supported only).                                    |
+| `components/CurrentReading`  | Displays latest NO₂ and O₃ measurements with timestamps, units, and visual indicators.                        |
+| `components/HistoricalData`  | Renders interactive charts (7/30 days) showing historical trends for NO₂ and O₃.                             |
+| `api/`                      | Contains API utility functions to fetch station list, current readings, and historical data.                   |
+| `types/`                    | TypeScript types used throughout the app for consistency and type safety.                                     |
+| `utils/`                    | Utility functions for formatting data, timestamps, and visual indicator logic.                                |
+-->
 
 ## Deployment
 
