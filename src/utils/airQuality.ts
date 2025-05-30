@@ -1,27 +1,27 @@
 const NO2_THRESHOLDS = {
-  GOOD: { max: 40, color: "bg-green-100 text-green-800", label: "Good" },
+  GOOD: { max: 40, color: "bg-green-300 text-black", label: "Good" },
   MODERATE: {
     max: 200,
-    color: "bg-yellow-100 text-yellow-800",
+    color: "bg-yellow-300 text-black",
     label: "Moderate",
   },
   UNHEALTHY: {
     max: Infinity,
-    color: "bg-red-100 text-red-800",
+    color: "bg-red-500 text-white",
     label: "Unhealthy",
   },
 };
 
 const O3_THRESHOLDS = {
-  GOOD: { max: 100, color: "bg-green-100 text-green-800", label: "Good" },
+  GOOD: { max: 100, color: "bg-green-400 text-black", label: "Good" },
   MODERATE: {
     max: 160,
-    color: "bg-yellow-100 text-yellow-800",
+    color: "bg-yellow-100 text-black",
     label: "Moderate",
   },
   UNHEALTHY: {
     max: Infinity,
-    color: "bg-red-100 text-red-800",
+    color: "bg-red-500 text-white",
     label: "Unhealthy",
   },
 };
