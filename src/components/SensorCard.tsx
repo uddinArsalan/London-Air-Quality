@@ -9,7 +9,7 @@ interface SensorCardProps {
 }
 
 export default function SensorCard({ data, parameter, unit }: SensorCardProps) {
-  const indicator = getHealthIndicator("no2", 50);
+  const indicator = getHealthIndicator(parameter, data.value);
   const formatDate = (dateString: string): string => {
     const date = new Date(dateString);
     return format(date, "MMMM d, yyyy, h:mm a");

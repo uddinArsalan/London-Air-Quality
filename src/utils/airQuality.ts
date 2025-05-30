@@ -1,4 +1,3 @@
-// utils/healthIndicators.ts
 const NO2_THRESHOLDS = {
   GOOD: { max: 40, color: "bg-green-100 text-green-800", label: "Good" },
   MODERATE: {
